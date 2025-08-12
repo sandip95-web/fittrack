@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --accent: #0ea5e9; }
+
+body { @apply bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100; }
+.btn { @apply px-3 py-2 rounded-xl border; }
+.btn-primary { @apply text-white; background-color: var(--accent); }
+.input { @apply rounded-xl border px-3 py-2 dark:bg-neutral-900; }
+.card { @apply rounded-2xl border border-neutral-200 dark:border-neutral-800 p-4 shadow-sm bg-white dark:bg-neutral-900; }
