@@ -7,7 +7,7 @@ export const DEFAULT_PROGRAM: Record<string, DayTemplate> = {
     { name: "DB Lateral Raise", prescription: "3×12–20" },
     { name: "Hammer Curl", prescription: "3×10–15" },
     { name: "Overhead DB Triceps Extension", prescription: "3×10–15" },
-    { name: "Core: Side Plank", prescription: "2×30–45s/side" },
+    { name: "Core: Side Plank", prescription: "2×30–45s/side" }
   ]},
   "Day 2 – Lower A": { title: "Day 2 – Lower A", exercises: [
     { name: "Bulgarian Split Squat", prescription: "4×8–12/side", note: "2s pause bottom" },
@@ -15,7 +15,7 @@ export const DEFAULT_PROGRAM: Record<string, DayTemplate> = {
     { name: "Goblet Squat", prescription: "3×12–20", note: "heels slightly elevated if comfy" },
     { name: "Hip Thrust (bar)", prescription: "3×10–15" },
     { name: "Standing Calf Raise", prescription: "3×12–20" },
-    { name: "Farmer Carry", prescription: "4×30–45s walks" },
+    { name: "Farmer Carry", prescription: "4×30–45s walks" }
   ]},
   "Day 3 – Upper B": { title: "Day 3 – Upper B", exercises: [
     { name: "Flat DB Press (pause on chest)", prescription: "4×8–12" },
@@ -24,7 +24,7 @@ export const DEFAULT_PROGRAM: Record<string, DayTemplate> = {
     { name: "Rear-Delt Fly", prescription: "3×12–20" },
     { name: "Alt DB Curl", prescription: "2–3×10–15" },
     { name: "Bench Dip", prescription: "2×AMRAP" },
-    { name: "Core: Dead Bug", prescription: "2–3×8–12/side" },
+    { name: "Core: Dead Bug", prescription: "2–3×8–12/side" }
   ]},
   "Day 4 – Lower B": { title: "Day 4 – Lower B", exercises: [
     { name: "Sumo Deadlift (bar 20 kg)", prescription: "4×10–15" },
@@ -32,7 +32,7 @@ export const DEFAULT_PROGRAM: Record<string, DayTemplate> = {
     { name: "Front-Foot-Elevated Split Squat", prescription: "3×10–12/side" },
     { name: "Single-Leg RDL (DB)", prescription: "3×8–12/side" },
     { name: "Suitcase Carry", prescription: "3×30–45s/side" },
-    { name: "Tibialis Raise", prescription: "3×15–20" },
+    { name: "Tibialis Raise", prescription: "3×15–20" }
   ]},
   "Optional Sat – Arms • Abs • Conditioning": { title: "Optional Sat – Arms • Abs • Conditioning", exercises: [
     { name: "Close-Grip DB Floor Press", prescription: "3×10–15" },
@@ -40,6 +40,6 @@ export const DEFAULT_PROGRAM: Record<string, DayTemplate> = {
     { name: "Conditioning: Rope/Stair March", prescription: "6×45s easy / 45s rest" },
     { name: "Abs Rotation A", prescription: "Hollow 3×20–40s + Rev crunch 3×10–15" },
     { name: "Abs Rotation B", prescription: "Leg raises 3×10–15 + Side plank 2×40s/side" },
-    { name: "Abs Rotation C", prescription: "Dead bug 3×8–12/side + Suitcase 2×45s/side" },
-  ]},
+    { name: "Abs Rotation C", prescription: "Dead bug 3×8–12/side + Suitcase 2×45s/side" }
+  ]}
 };
